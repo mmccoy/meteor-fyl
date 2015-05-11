@@ -1,0 +1,22 @@
+<template name="home">
+  <div class="container-fluid">
+    <div class="container">
+      <h3>Larry</h3>
+    </div>
+  </div>
+
+
+  <div class="container" id="post-list">
+    <form>
+      <input type="text" name="title" placeholder="Whats your message for Lurry?">
+    </form>
+    <button class="record-start">Record Audio</button>
+    <button class="record-stop">Stop recording</button>
+    {{#each posts }}
+      <h3>{{title}}</h3>
+      <h5>{{date}}</h5>
+      <p>{{audio_url}}</p>
+    {{/each}}
+  </div>
+</template>
+

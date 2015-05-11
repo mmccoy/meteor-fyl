@@ -1,0 +1,25 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+autopublish
+insecure
+fourseven:scss
+accounts-ui
+accounts-twitter
+iron:router
+cfs:standard-packages
+cfs:filesystem
+useraccounts:core
+useraccounts:polymer
+yasinuslu:blaze-meta
+bootstrap
+zimme:iron-router-active
+dburles:collection-helpers
+matb33:collection-hooks
+anti:fake
+dburles:factory
+fortawesome:fontawesome
